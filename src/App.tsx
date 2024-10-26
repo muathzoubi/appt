@@ -1,10 +1,12 @@
-import { useEffect, useState } from 'react';
+import { useEffect} from 'react';
 import './App.css';
-import Countdown from 'react-countdown';
 
 function App() {
-  const [count, setCount] = useState(5);
-
+useEffect(()=>{
+  setTimeout(() => {
+    window.location.href="#"
+  }, 5000);
+},[])
   return (
     <>
       <div>
