@@ -4,13 +4,13 @@ import './App.css';
 function App() {
 useEffect(()=>{
   setTimeout(() => {
-    window.location.href="#"
+    window.location.href="https://tagdeera.vercel.app/"
   }, 5000);
 },[])
   return (
     <>
       <div>
-        <a href="https://vite.dev" target="_blank">
+        <a href="#" target="_blank">
           <img
             src={'https://taqdeer.sa//static_files/2018/07/89-300x129.png'}
             alt=" logo"
